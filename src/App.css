@@ -1,38 +1,356 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+/* ----------General------------ */
+*{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+p{
+  color:#BDBCBE;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p , h3, h5, h4{
+  padding: 0;
+  margin: 0;
+  background-color: #00000000;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+  background-color:#00000000 ;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.App{
+  background-color: #101317;
   flex-direction: column;
+  display: flex;
+  width: 100vw;
+}
+/* -----------------Header------------------ */
+.AppHeading{
+  display: flex;
+  flex: 1;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+}
+.Container{
+  display: flex;
+  flex-direction: column;
+  margin: 32px;
+}
+.ContainerHeading{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.LogoContainerHeading{
+  min-width: 170px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+
+}
+.LogoContainerHeadingEmpty{
+  flex:3;
+  justify-content: center;
+}
+.LogoContainerHeadingEmptyLast{
+  min-width: 75px;
+  flex:0.5;
+}
+.ContainerHeadingText{
+  font-weight: 700;
+  padding-left: 16px;
+}
+.ContainerContent{
+  display: flex;
+  flex-direction: column;
+  
+}
+/* ----------------Content from JSON------------------- */
+.ContentBox{
+  height:100px;
+  margin-top: 16px;
+  background: #1E262F;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* -----------------Profile-------------------- */
+.Profile{
+  background-color: #00000000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 3;
+}
+.ProfileContainer{
+  background-color: #00000000;
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  align-items: center;
+}
+.ProfileContent{
+  background-color: #00000000;
+  padding: 0 10px;
+}
+.Walked{
+  font-size: 8px;
+  padding:0
+}
+/* -----------------Steps-------------------- */
+
+.Steps{
+  min-width: 170px;
+  background-color: #00000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.Button{
+  width: 30px;
+  height: 16px;
+  background: #101317;
+  border-radius: 4px;
+  border: none;
+  padding: 0px 5px;
+}
+.StepsContent{
+  background-color: #00000000;
+  padding: 0 10px;
+}
+.Date{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.DateLogo{
+  padding-right: 10px;
+}
+/* -----------------Workout-------------------- */
+
+.Workout{
+  min-width: 170px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
 }
 
-.App-link {
-  color: #61dafb;
+.NextLogo{
+  background-color: #101317;
+  padding: 30px 15px;
+  border-radius: 8px;
+  margin: 10px;
+  margin-right: 0;
+}
+.Alert{
+  background-color: #CC3838;
+
+}
+/* -----------------Nutrtition-------------------- */
+
+.Nutrition{
+  min-width: 170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.CaloriesTakenContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NutritionContent{
+  background-color: #00000000;
+  padding: 0 10px;
+  padding-right: 0;
+}
+.CaloriesTaken{
+  position: absolute;
+}
+.Notification{
+  min-width: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 0.5;
+}
+.NotificationLogo{
+  padding: 15px;
+  background: #36F5C7;
+  border-radius: 8px;
+}
+/* -----------------Dropdown-------------------- */
+
+.Dropdown{
+  z-index: 2;
+  position: absolute;
+  transform: translate(-130px,40px);
+  width: 208px;
+  height: 165px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #333B44;
+  box-shadow: 2px 3px 42px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.DropdownContainer{
+  width: 196.1px;
+  height: 38.9px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #1B222A;
+  border-radius: 4.86207px;
+}
+.NutrientInformation{
+  width:90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 9px ;
+}
+.NutrientInformation h3{
+  font-size: 12px;
+}
+h6{
+  padding: 0%;
+  margin: 0%;
+  font-size: 8px;
+}
+.ProteinTotal, .CarbohydrateTotal, .FatsTotal{
+  width: 179.09px;
+  height: 9.72px;
+  display: flex;
+  flex-direction: row;
+  background: #101317;
+  border-radius: 6.48276px;
+}
+.ProteinConsumed,.CarbohydrateConsumed,.FatsConsumed{
+  height: 9.72px;
+  border-radius: 6.48276px;
+  margin-right: 7px;
+}
+.ProteinConsumed{
+  width: 109.09px;
+  background-color: #F45C84;
+}
+.CarbohydrateConsumed{
+  width: 83.09px;
+  background-color: #03C6FA;
+}
+.FatsConsumed{
+  width: 128.09px;
+  background-color: #F0C50F;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* -----------------Making sure it works on Mobile and Tablet-------------------- */
+
+@media screen and (max-width:1000px){
+  .ProfileContent{
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .Steps , .Workout , .Nutrition, .LogoContainerHeading{
+    min-width: 200px;
+  }
+}
+@media screen and (max-width:820px){
+  
+  .Steps , .Workout , .Nutrition, .LogoContainerHeading{
+    min-width: 170px;
+  }
+}
+
+
+@media screen and (max-width:725px){
+  .NextLogo{
+    display: none;
+  }
+  
+  .Steps , .Workout , .Nutrition, .LogoContainerHeading{
+    min-width: 130px;
+  }
+  .ContainerHeadingText{
+    display: none;
+  }
+}
+@media screen and (max-width:600px){
+  *{
+    text-align: center ;
+  }
+  .Steps , .Workout , .Nutrition {
+    flex-direction: column;
+  }
+  .Steps , .Workout , .Nutrition, .LogoContainerHeading{
+    min-width: 90px;
+  }
+  .ContentBox{
+    height: 170px;
+  }
+  .Notification, .LogoContainerHeadingEmptyLast{
+    min-width: 40px;
+  }
+  .NotificationLogo{
+    padding: 0;
+    background-color: #00000000;
+    color: #36F5C7;
+  }
+  .StepsContent, .NutritionContent{
+    padding: 0;
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width:450px){
+  .Container{
+    margin: 32px 16px;
+  }
+  .ContentBox{
+    flex-wrap: wrap;
+  }
+  .LogoContainerHeadingEmpty, .LogoContainerHeadingEmptyLast{
+    min-width: 0px;
+    flex: 0;
+  }
+  .ProfileContainer{
+    padding: 10px  0px;
+  }
+  .Profile{
+    justify-content: center;
+    order: -1;
+    flex: 1 0 100%;
+  }
+  .Notification{
+    justify-content: center;
+    order: 2;
+    flex: 1 0 100%;
+    padding-bottom: 10px;
+  }
+  .ContentBox{
+    height: 270px;
+  }
+}
+@media screen and (max-width:300px){
+  .ContentBox{
+    height: 350px;
+  }
+  .LogoContainerHeading{
+    min-width: 0px;
+  }
+  .Nutrition, .Steps{
+    order: 1;
+  }
+  .Workout{
+    order: 2;
   }
 }
