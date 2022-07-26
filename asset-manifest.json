@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/evolv-frontend/static/css/main.e2b77f0f.css",
-    "main.js": "/evolv-frontend/static/js/main.70232054.js",
-    "static/js/787.21d90492.chunk.js": "/evolv-frontend/static/js/787.21d90492.chunk.js",
-    "static/media/workout.svg": "/evolv-frontend/static/media/workout.9b3077ea65430b41fd0cc163f1c138bc.svg",
-    "static/media/performedDate.svg": "/evolv-frontend/static/media/performedDate.4ed709911b4820e4f92ff4a97a0accbc.svg",
-    "static/media/steps.svg": "/evolv-frontend/static/media/steps.0fd41a160e9ebaafa9a34d7792b57f34.svg",
-    "static/media/notification.svg": "/evolv-frontend/static/media/notification.de379eea157b60c9fa6257222694ea93.svg",
-    "static/media/scheduledDate.svg": "/evolv-frontend/static/media/scheduledDate.cc718608ccc4caf3e1f9c15792d4b2da.svg",
-    "static/media/next.svg": "/evolv-frontend/static/media/next.9a3b269d370d56d7927e23637efd4b99.svg",
-    "index.html": "/evolv-frontend/index.html",
-    "static/media/nutrition.svg": "/evolv-frontend/static/media/nutrition.163f4eaed8cc11fa30c55cd9c0f26c6e.svg",
-    "main.e2b77f0f.css.map": "/evolv-frontend/static/css/main.e2b77f0f.css.map",
-    "main.70232054.js.map": "/evolv-frontend/static/js/main.70232054.js.map",
-    "787.21d90492.chunk.js.map": "/evolv-frontend/static/js/787.21d90492.chunk.js.map"
+    "main.css": "/evolv_frontend/static/css/main.e2b77f0f.css",
+    "main.js": "/evolv_frontend/static/js/main.e76fe3f2.js",
+    "static/js/787.21d90492.chunk.js": "/evolv_frontend/static/js/787.21d90492.chunk.js",
+    "static/media/workout.svg": "/evolv_frontend/static/media/workout.9b3077ea65430b41fd0cc163f1c138bc.svg",
+    "static/media/performedDate.svg": "/evolv_frontend/static/media/performedDate.4ed709911b4820e4f92ff4a97a0accbc.svg",
+    "static/media/steps.svg": "/evolv_frontend/static/media/steps.0fd41a160e9ebaafa9a34d7792b57f34.svg",
+    "static/media/notification.svg": "/evolv_frontend/static/media/notification.de379eea157b60c9fa6257222694ea93.svg",
+    "static/media/scheduledDate.svg": "/evolv_frontend/static/media/scheduledDate.cc718608ccc4caf3e1f9c15792d4b2da.svg",
+    "static/media/next.svg": "/evolv_frontend/static/media/next.9a3b269d370d56d7927e23637efd4b99.svg",
+    "index.html": "/evolv_frontend/index.html",
+    "static/media/nutrition.svg": "/evolv_frontend/static/media/nutrition.163f4eaed8cc11fa30c55cd9c0f26c6e.svg",
+    "main.e2b77f0f.css.map": "/evolv_frontend/static/css/main.e2b77f0f.css.map",
+    "main.e76fe3f2.js.map": "/evolv_frontend/static/js/main.e76fe3f2.js.map",
+    "787.21d90492.chunk.js.map": "/evolv_frontend/static/js/787.21d90492.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e2b77f0f.css",
-    "static/js/main.70232054.js"
+    "static/js/main.e76fe3f2.js"
   ]
 }
